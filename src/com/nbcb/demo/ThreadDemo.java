@@ -1,6 +1,6 @@
 package com.nbcb.demo;
 
-
+//这是一个多线程测试程序
 class ThreadTest implements Runnable{
     private Thread t;
     private String ThreadName;
