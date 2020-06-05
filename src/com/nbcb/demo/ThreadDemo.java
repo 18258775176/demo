@@ -32,6 +32,7 @@ class ThreadTest implements Runnable{
 
 //主程序入口
 public class ThreadDemo {
+    //main
     public static void main(String[] args) {
         ThreadTest t1 = new ThreadTest("111111");
         t1.start();
